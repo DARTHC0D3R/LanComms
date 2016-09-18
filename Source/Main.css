@@ -1,0 +1,146 @@
+.mainPane{
+
+    -fx-background-color:#01579B;
+    -fx-padding:  0;
+    -fx-spacing: 15;    
+}
+
+.mainPane .label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #212121;
+
+
+}
+.ChatBox{
+    -fx-spacing:10;
+    -fx-background-color:#01579B;
+    -fx-effect: dropshadow( gaussian , #00BCD4 , 10,1,1,1 );
+
+}
+.Textpane{
+    -fx-spacing:10;
+    -fx-padding:5 5 5 0;
+    -fx-background-color:#01579B;
+    -fx-effect: dropshadow( gaussian , #00BCD4 , 10,0,1,1 );
+
+}
+
+.button {
+    -fx-text-fill: #212121;
+    -fx-font-weight: bold;
+       -fx-effect: dropshadow( gaussian , #00BCD4 , 10,0,1,1 );
+    -fx-padding: 5 20 5 20 ;
+    -fx-background-color:#0288D1;
+
+}
+.MessageContainer{
+    -fx-background-color:#424242;
+      -fx-effect: dropshadow( gaussian , #212121 , 10,0,1,1 );
+    -fx-padding:  15 12 5 12 ;
+
+}
+.iuserName{
+    -fx-font-size: 5px;
+    -fx-text-fill: #F5F5F5;
+    -fx-effect: dropshadow( gaussian , #212121 , 10,0.3,1,1 );
+    -fx-alignment:bottom-center;
+    -fx-padding: 5 20 0 20 ;
+}
+.ouserName{
+    -fx-font-size: 5px;
+    -fx-text-fill: #F5F5F5;
+    -fx-effect: dropshadow( gaussian , #212121 , 10,0.3,1,1 );
+    -fx-alignment:bottom-center;
+    -fx-padding: 5 20 0 20 ;
+}
+
+.OutGoingMsg{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #212121;
+    -fx-effect: dropshadow( gaussian , #212121 , 10,0.3,1,1 );
+    -fx-alignment:baseline-left;
+    -fx-padding: 5 20 5 20 ;
+    -fx-background-color:#E0E0E0;
+    -fx-background-radius:5 20 5 20;
+    -fx-border-radius:10;
+    
+}
+.incomingMsg{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F5F5F5;
+    -fx-alignment:baseline-left;
+    -fx-padding: 5 20 5 20 ;
+    -fx-background-color:#0091EA;
+    -fx-effect: dropshadow( gaussian , #212121 , 10,0.3,1,1 );
+    -fx-background-radius:5 20 5 20;
+    -fx-border-radius:10;
+}
+.tab{
+    -fx-background-color: #01579B;
+    -fx-text-fill:  #212121 ;
+    -fx-tab-max-heigh :10px;
+
+}
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #212121;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+ 
+}
+.tab:selected{
+        -fx-background-color: #424242;
+    -fx-text-fill:  #F5F5F5 ;
+        -fx-tab-min-height :15px;
+}
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #F5F5F5;
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , #F5F5F5 , 10,0,1,1 );
+
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+    -fx-background-color: #01579B;
+            -fx-effect: dropshadow( three-pass-box , #00BCD4 , 10,0,1,1 );
+}
+
+.menu-bar{
+  -fx-background-color: #01579B;
+  -fx-effect: dropshadow( gaussian , #00BCD4 , 10,0,1,1 );
+
+}
+.menu:hover {
+    -fx-background-color: #01579B;
+}
+.menu:hover {
+    -fx-background-color: #01579B;
+}
+.menu-bar .label {
+    -fx-font-size: 14 pt;
+    -fx-text-fill: #212121;
+-fx-background-color: #01579B;
+
+}
+.menu-item .label{
+     -fx-font-size: 14 pt;
+      -fx-background-color: #01579B; 
+}
+.menu-item{
+    -fx-background-color: #01579B;
+}
+.text-field{
+    -fx-font-weight:bold;
+      -fx-effect: dropshadow( gaussian , #00BCD4 , 10,0,1,1 );
+}
+.ErrorPane{
+    -fx-background-color:#01579B;
+    -fx-padding:  0 10 5 10;
+    -fx-spacing: 15;    
+}
